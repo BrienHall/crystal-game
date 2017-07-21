@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1"><title>C R Y S T A L S</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Instructors - thoughts on the 'async' attribute in <script> tags? Perhaps not necessary for app this small, but as a general practice?-->
+	<script src="assets/javascript/game.js" type="text/javascript"></script>
+	<script src="https://use.fontawesome.com/212d9e8f08.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+  		<nav class="navbar">
+    	<a class="navbar-brand" href="index.html">C R Y S T A L S</a>
+    	<nav class="nav navbar-nav navbar-right" class="text-muted"> 
+    		<a id="catalog-link" href="https://brienhall.github.io/catalog/" name="catalog"><span class="text-muted">00003</span></a>
+  </nav>
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="container">
+				<div class="container jumbotron">
+					<div class="col-md-4"></div>
+					<div class="col-md-4 text-center">
+						<p>Choose crystals w/ third eye <span><i class="fa fa-eye" aria-hidden="true"></i></span> and chakras <span><i class="fa fa-bullseye" aria-hidden="true"></i></span> to match frequency</p>
+						<div class="text-center">
+							<button class="btn btn-primary" id="start">S T A R T</button>
+							<!--pause the music, not the game (future) -->
+							<!-- <button class="btn btn-primary" id="pause">P A U S E</button> -->
+						</div>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+		<div class="container">
+		<div class="container jumbotron">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 text-center">
+					<p>Cosmic Frequency:</p>
+					<p id="random-freq">  Mhz</p>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 text-center">
+					<p>Your heart chakra frequency:</p>
+					<p id="your-score">&nbsp;</p>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 text-center">
+					<p><h5>Good Omens: </h5></p>
+					<div id="wins">&nbsp;</div>
+					<p><h5>Bad Omens: </h5></p>
+					<div id="losses"></div>&nbsp;</p>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+		</div>
+
+		<div class="row">
+		<div class="container text-center">
+		<div class="container jumbotron">
+			<div class="row">
+				<div class="col-md-2 col-sm-2"></div>
+				<button class="btn btn-success crystal col-md-2 col-sm-2" id="crystal-1">CRYSTAL 1</button>
+				<button class="btn btn-info crystal col-md-2 col-sm-2" id="crystal-2">CRYSTAL 2</button>
+				<button class="btn btn-warning crystal col-md-2 col-sm-2" id="crystal-3">CRYSTAL 3</button>
+				<button class="btn btn-danger crystal col-md-2 col-sm-2" id="crystal-4">CRYSTAL 4</button>
+				<div class="col-md-2 col-sm-2"></div>
+			</div>
+			</div>
+		
+		</div>
+		</div>
+		</div>
+
+	</div>
+</body>
+</html>
